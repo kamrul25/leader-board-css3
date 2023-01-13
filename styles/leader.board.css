@@ -6,6 +6,52 @@
 body {
   background: #e5e5e5;
 }
+/* header part */
+
+.nav {
+  font-family: "Poppins", sans-serif;
+  height: 94px;
+  background: #562eff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 0;
+}
+.nav .logo img {
+  width: 40px;
+  height: 51px;
+}
+.nav .logo h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.nav ul {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  list-style: none;
+  border: 0;
+}
+.nav ul li a {
+  margin-top: 35px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.nav ul li img {
+  width: 51px;
+  height: 51px;
+  margin-top: 23px;
+}
+/* header end */
+/* section title */
 .title {
   font-weight: 500;
   font-size: 24px;
@@ -14,7 +60,7 @@ body {
 }
 /* top section start */
 .top-section {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   width: 870px;
   height: 679px;
@@ -116,8 +162,8 @@ body {
   color: #ed6b4f;
   margin-bottom: 20px;
 }
-.course .course-star img{
-    width: 12.39px;
-    height: 11.81px;
-    color: #FFC014;
+.course .course-star img {
+  width: 12.39px;
+  height: 11.81px;
+  color: #ffc014;
 }
