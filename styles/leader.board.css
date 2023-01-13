@@ -15,7 +15,46 @@ main {
 .blog-name,
 .course-name {
   font-size: 18px;
-  color: #1E1E1E;
+  color: #1e1e1e;
+}
+/* nav part */
+.nav {
+  font-family: "Poppins", sans-serif;
+  height: 94px;
+  background-color: #562eff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0;
+  border-radius: 4px;
+}
+.nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav .logo img {
+  width: 40px;
+  height: 51px;
+}
+.nav .logo-name {
+  font-size: 20px;
+  color: #ffffff;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+.nav ul li .profile {
+  width: 51px;
+  height: 51px;
 }
 /* Top Section */
 .top-section {
@@ -28,9 +67,9 @@ main {
   left: 285px;
   top: 130px;
   border: 0;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
-.top-section:hover{
+.top-section:hover {
   border: 1px solid #562eff;
 }
 .title {
@@ -79,7 +118,7 @@ main {
   color: #ac5151;
 }
 /* course section */
-.course-section{
+.course-section {
   font-family: "Robot0", sans-serif;
   background: #ffffff;
   width: 870px;
@@ -91,30 +130,53 @@ main {
   border: 0;
   border-radius: 10px;
 }
-.course-section:hover{
+.course-section:hover {
   border: 1px solid #562eff;
 }
-.courses{
- display: flex;
- gap: 54px;
+.courses {
+  display: flex;
+  gap: 54px;
 }
-.course img{
+.course img {
   width: 224px;
   height: 104px;
 }
-.course-name{
+.course-name {
   margin: 10px 0;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  color: #1E1E1E;
-} 
-.course p{
-  color: #ED6B4F;
+  color: #1e1e1e;
+}
+.course p {
+  color: #ed6b4f;
   font-size: 14px;
 }
 /* rate part */
-.course-rate-duration .rate-star{
-  width: 12px;
-  height: 11px;
+.course-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.fa-star.field {
+  font-size: 12px;
+  color: #ebad04;
+}
+.fa-star.empty {
+  font-size: 12px;
+  color: #aeaeae;
+  opacity: 0.25;
+}
+.course-duration{
+  border: 0;
+  border-radius: 12px;
+  color: #ED6B4F;
+  background: #FFE4E8;
+  font-size: 14px;
+  width: 94px;
+  height: 30px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 8px;
 }
